@@ -9,7 +9,7 @@ def index():
  
 @app.route('/video')
 def play_video():
-    video_path = '/mnt/c/Users/standard/Documents/Video_Project/video/Volume_1.mp4'
+    video_path = '/Video_Project/video/Volume_1.mp4'
     return send_file(video_path, mimetype='video/mp4') 
 
 if __name__ == '__main__':
